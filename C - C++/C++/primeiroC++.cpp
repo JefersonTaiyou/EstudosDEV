@@ -4,5 +4,5 @@ using namespace std;
 
 int main()
 {
-    cout << "Primeiro Programa!" << endl;
+    cout << "Meu Primeiro Programa em C++!" << endl;
 }
