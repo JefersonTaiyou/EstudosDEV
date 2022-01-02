@@ -3,7 +3,7 @@
     {
       "type": "cppbuild",
       "label": "C/C++: gcc.exe arquivo de build ativo",
-      "command": "C:\\Program Files (x86)\\CodeBlocks\\MinGW\\bin\\gcc.exe",
+      "command": "C:\\MinGW\\bin\\gcc.exe",
       "args": [
         "-fdiagnostics-color=always",
         "-g",
