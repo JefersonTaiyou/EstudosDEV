@@ -1,0 +1,51 @@
+<!DOCTYPE HTML>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="../css/index.css">
+    <script src="../js/index.js"></script>
+</head>
+
+<body>
+    <header>
+        <div id="" class="">
+            <div id="" class="linha">
+                <div id="box" class="coluna">
+                    <h1>Qtde Fila Atual:</h1>
+                    <h2 id="count-fifo" class="no-animation">0</h2>
+                </div>
+                <div id="box" class="coluna">
+
+                    <h1>Qtde Entrar Fila:</h1>
+                    <h2 id="count-enter-fifo" class="no-animation">0</h2>
+                </div>
+                <div id="box" class="coluna">
+                    <h1>Total Que Entrou:</h1>
+                    <h2 id="count-all-fifo" class="no-animation">0</h2>
+                </div>
+                <div id="box" class="coluna">
+
+                    <h1>...</h1>
+                    <h2 id="count-enter-fifo" class="no-animation">0</h2>
+                </div>
+            </div>
+            <!--<p id="fila-el">Fila Atual: </p>-->
+            <p>
+                <button id="increment-btn" onclick="filaAction(1)">Adicionar</button>
+                <button id="remove-btn" onclick="filaAction(0)">Remover</button>
+            </p>
+            <p>
+                <button id="save-btn" onclick="save()" class="salvar">Salvar</button>
+                <button id="rmv-list-btn" onclick="removeList()">FIFO</button>
+            </p>
+
+        </div>
+        <!--<div id="" class="">
+            <input type="text" value="..." disabled>
+        </div>-->
+    </header>
+
+</body>
+
+</html>
