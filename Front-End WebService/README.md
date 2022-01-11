@@ -28,3 +28,25 @@ Conjuntos de regras para comunicação em rede<br>
   - **< Font face="nome da fonte">**: Altera o tipo da fonte;
   - **< Font size="tamanho">**: Altera o tamanho da fonte;
   - **< Font color="código rgb ou hexa da fonte">**: Altera a cor da fonte;
+
+- **Listas**:
+  - **OL**: Lista ordenada;
+  - **UL**: Lista Não Ordenada;
+    - **LI**: Item da Lista;
+
+- **Tabelas**: < Table>
+
+    1ª Linha < TR> 1ª Coluna < TD> | 2ª Coluna < TD> |
+    :---------: | :------: | 
+    2ª Linha < TR> 1ª Coluna < TD> | 2ª Coluna < TD> |
+    3ª Linha < TR> 1ª Coluna < TD> | 2ª Coluna < TD> |
+
+    - **Border**: Muda a cor da borda;
+    - **Bgcolor**: Muda a cor de fundo;
+    - **Cellspacing**: espaço entre a borda e celulas;
+    - **Cellpadding**: espaço entre os dados e a borda;
+    - **Alinhamento das Células**:
+      - **align**: alinhamento horizontal;
+      - **valign**: alinhamento vertical;
+      - **colspan**: mescla colunas; **ex**: < td colspan="2">
+      - **rowspan**: mescla linhas; **ex**: < td rowspan="2">
