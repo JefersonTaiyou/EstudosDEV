@@ -50,3 +50,28 @@ Conjuntos de regras para comunicação em rede<br>
       - **valign**: alinhamento vertical;
       - **colspan**: mescla colunas; **ex**: < td colspan="2">
       - **rowspan**: mescla linhas; **ex**: < td rowspan="2">
+
+- **Form**:  Cria um formulario HTML; **sintaxe:** < Form>< /form>
+- **Action="URL"**: Especifica qual script processará os dados deste formulario;
+- **Method="post ou get"**: maneira que os dados serão enviados;
+	- **post** = Utilizado para transmissão de muitos dados para o servidor - **[Recomendado]**
+	- **get** = Utilizado para transmissão de dados únicos
+- **Input**: Utilizado para criar os campos do Form
+    - **type**: utilizado para definir o tipo dos campos, podendo ser definidos como:
+      - **file**: campo de seleção de arquivos;
+      - **reset**: botão para limpar os campos;
+      - **button**: botão de ação;
+      - **submit**: botão de enviar;
+      - **password**: campo de senha;
+      - **radio**: campo de escolha única;
+      - **text**: campo de texto;
+      - **checkbox**: campo de multipla escolha;
+		
+    - **value**: valor inicial do campo;
+    - **maxlenght**: tamanho máximo de caracteres;
+    - **checked**: define se o campo("radio" ou "checkbox") está selecionado;
+    - **name**: nome do campo para facilitar a manipulação do script;
+    - **size**: tamanho do campo;
+- **Textarea**: cria um campo de texto para descrições maiores; **Sintaxe:** < textarea rows="num" cols="num">< /textarea>
+	- **rows**: define a qtde de linhas;
+	- **cols**: define a qtde de colunas;
