@@ -75,3 +75,6 @@ Conjuntos de regras para comunicação em rede<br>
 - **Textarea**: cria um campo de texto para descrições maiores; **Sintaxe:** < textarea rows="num" cols="num">< /textarea>
 	- **rows**: define a qtde de linhas;
 	- **cols**: define a qtde de colunas;
+
+
+- <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="CSS" title="CSS3" style="max-width: 100%;" width="40" height="40" align="middle"> Linguagem de Formatação para estilizar páginas WEB
