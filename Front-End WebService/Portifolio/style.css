@@ -2,8 +2,8 @@
     @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
      :root {
         --font-atual: "Poppins", sans-serif;
-        --cor-1: #0e2431;
-        --cor-2: #6a59d1;
+        --cor-1: #100e31;
+        --cor-2: #263baf;
         --cor-3: #777;
         --cor-hover: var(--cor-1);
         --cor-body: #fefefe;
@@ -19,9 +19,9 @@
         --font-pequeno: .9em;
         --font-normal: 1em;
         /*! scrollbar */
-        --scrollbar-cor: #c5cadf;
-        --scroll-thumb-cor: #70768a;
-        --scroll-thumb-cor-hover: #454f6b;
+        --scrollbar-cor: #c6dfc5;
+        --scroll-thumb-cor: #718a70;
+        --scroll-thumb-cor-hover: #536b45;
     }
     
     * {
@@ -352,4 +352,153 @@
         margin: 0 auto;
     }
     
-    .skills-info h4 {}
+    .skills-info h4 {
+        margin-bottom: 20px;
+    }
+    
+    .skills-info h4 label {
+        background: var(--cor-2);
+        color: #fff;
+        font-size: var(--font-normal);
+        font-weight: 400;
+        padding: 5px 15px;
+        border-radius: 5px;
+    }
+    
+    .educacao {
+        margin-bottom: 80px;
+    }
+    
+    .edu-list .item {
+        background: var(--cor-card);
+        box-shadow: var(--box-shadow);
+        border-bottom: 3px solid var(--cor-2);
+        padding: 20px;
+        margin-top: 15px;
+        border-radius: 6px;
+        transition: .3s ease;
+    }
+    
+    .edu-list .item .ano {
+        font-size: var(--font-pequeno);
+        margin-bottom: 5px;
+    }
+    
+    .edu-list .item p {
+        font-size: var(--font-pequeno);
+        color: var(--cor-3);
+    }
+    
+    .edu-list .item p span {
+        font-size: var(--font-normal);
+        color: #000000;
+        font-weight: 500;
+    }
+    
+    .barra {
+        background-color: var(--cor-card);
+        box-shadow: var(--box-shadow);
+        margin-bottom: 10px;
+        padding: 20px;
+        border-radius: 6px;
+        transition: .3s ease;
+    }
+    
+    .barra .info {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 5px;
+        font-size: var(--font-pequeno);
+    }
+    
+    .barra .info {
+        font-weight: 500;
+    }
+    
+    .barra .linha {
+        position: relative;
+        width: 100%;
+        height: 7px;
+        background: #c5cadf;
+        border-radius: 2px;
+    }
+    
+    .barra .linha::before {
+        content: '';
+        position: absolute;
+        height: 100%;
+        top: 0;
+        left: 0;
+        background: var(--cor-2);
+        border-radius: 2px;
+    }
+    
+    .barra .html::before {
+        width: 65%;
+    }
+    
+    .barra .css::before {
+        width: 60%;
+    }
+    
+    .barra .js::before {
+        width: 48%;
+    }
+    
+    .barra .c::before {
+        width: 72%;
+    }
+    
+    .barra .csharp::before {
+        width: 60%;
+    }
+    
+    .barra .sql::before {
+        width: 76%;
+    }
+    
+    .barra .python::before {
+        width: 52%;
+    }
+    
+    .barra .ps::before {
+        width: 62%;
+    }
+    
+    .barra .ai::before {
+        width: 71%;
+    }
+    
+    .barra .ae::before {
+        width: 49%;
+    }
+    
+    .experiencia {
+        background: var(--cor-card);
+        border-bottom: 3px solid var(--cor-2);
+        padding: 35px;
+        border-radius: 6px;
+        box-shadow: var(--box-shadow);
+        transition: .3s ease;
+    }
+    
+    .experiencia .upper {
+        line-height: 30px;
+    }
+    
+    .experiencia h3 {
+        font-size: 1.3em;
+        font-weight: 700;
+    }
+    
+    .experiencia span {
+        color: var(--cor-3);
+    }
+    
+    .experiencia .hr {
+        width: 100%;
+        height: 2px;
+        background-color: var(--cor-linha);
+        margin: 10px 0 22px;
+    }
