@@ -398,6 +398,7 @@
     .barra {
         background-color: var(--cor-card);
         box-shadow: var(--box-shadow);
+        border-bottom: 2px solid var(--cor-1);
         margin-bottom: 10px;
         padding: 20px;
         border-radius: 6px;
@@ -501,4 +502,65 @@
         height: 2px;
         background-color: var(--cor-linha);
         margin: 10px 0 22px;
+    }
+    
+    .edu-list .item:hover,
+    .experiencia:hover {
+        transform: scale(1.03);
+    }
+    
+    .barra:hover {
+        transform: scale(1.03);
+        padding-bottom: 80px;
+    }
+    
+    .esconde {
+        display: none;
+        padding-left: 40px;
+        padding-top: 30px;
+        margin-bottom: 0;
+        transition: .5s;
+    }
+    
+    li:hover .esconde {
+        display: grid;
+    }
+    
+    span.red {
+        color: red;
+        font-weight: 600;
+        transition: .3s;
+    }
+    
+    span.red:hover {
+        padding-left: 10px;
+        color: white;
+        background-color: red;
+        border-radius: 20px;
+    }
+    
+    span.azul {
+        color: blue;
+        font-weight: 700;
+        transition: .3s;
+    }
+    
+    span.azul:hover {
+        padding-left: 10px;
+        color: white;
+        background-color: blue;
+        border-radius: 20px;
+    }
+    
+    span.verde {
+        color: green;
+        font-weight: 800;
+        transition: .3s;
+    }
+    
+    span.verde:hover {
+        padding-left: 10px;
+        color: white;
+        background-color: green;
+        border-radius: 20px;
     }
