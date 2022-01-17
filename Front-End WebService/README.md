@@ -1,6 +1,6 @@
 # Minhas Anotações dos Estudos
 
-- <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="HTML5" title="HTML5" style="max-width: 100%;" width="40" height="40" align="middle"> Linguagem de Marcação para criar páginas WEB
+- <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="HTML5" title="HTML5" style="max-width: 100%;" width="40" height="40" align="center"> Linguagem de Marcação para criar páginas WEB
 
 <h2>Protocolos:</h2>
 
