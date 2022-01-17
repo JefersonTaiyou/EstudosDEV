@@ -77,4 +77,4 @@ Conjuntos de regras para comunicação em rede<br>
 	- **cols**: define a qtde de colunas;
 
 
-- <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="CSS" title="CSS3" style="max-width: 100%;" width="40" height="40" align="middle"> Linguagem de Formatação para estilizar páginas WEB
+- <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="CSS" title="CSS3" style="max-width: 100%;" width="40" height="40" align="center"> Linguagem de Formatação para estilizar páginas WEB
