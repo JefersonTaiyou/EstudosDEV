@@ -1,0 +1,8 @@
+	<div class="container">
+	             <div class="row" style="color:pink; font-size:15px">
+			<div class="col-sm-4 text-center">
+				<h1><img src="Pets/28.png" width="75%" height="75%"></h1>
+                <p>Shampoo e Condicionador para Pets</p>
+                <p>R$29,99 </p>
+                <a href="carrinho.html" style="blue">Adicionar no carrinho</a>
+            </div> 				
