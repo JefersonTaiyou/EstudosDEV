@@ -19,14 +19,14 @@
         --font-pequeno: .9em;
         --font-normal: 1em;
         /*! scrollbar */
-        --scrollbar-cor: #c6dfc5;
-        --scroll-thumb-cor: #718a70;
-        --scroll-thumb-cor-hover: #536b45;
+        --scrollbar-cor: #777;
+        --scroll-thumb-cor: #263baf;
+        --scroll-thumb-cor-hover: #100e31;
     }
     
     * {
         margin: 0;
-        padding: 0;
+        padding: 1px;
         box-sizing: border-box;
         font-family: var(--font-atual);
     }
@@ -147,6 +147,7 @@
     
     .home-container .media-icons a:hover {
         color: var(--cor-1);
+        transform: scale(1.08);
     }
     
     .home-container .info h2 {
@@ -178,10 +179,12 @@
         padding: 20px 30px;
         letter-spacing: 1px;
         border-radius: 10px;
+		transition: 0.5s;
     }
     
     .botao:hover {
         background: var(--cor-hover);
+        transform: scale(1.03);
     }
     
     .home-container .home-img {
@@ -302,7 +305,11 @@
     .sobre-info .descricao h4 span {
         color: var(--cor-2);
     }
-    
+	
+    .sobre-info .descricao h4 span:hover {
+        color: var(--cor-2);
+    }
+	
     .sobre-info .descricao p {
         color: var(--cor-3);
         font-size: var(--font-normal);
@@ -364,7 +371,7 @@
         padding: 5px 15px;
         border-radius: 5px;
     }
-    
+	
     .educacao {
         margin-bottom: 80px;
     }
@@ -511,15 +518,13 @@
     
     .barra:hover {
         transform: scale(1.03);
-        padding-bottom: 80px;
     }
     
     .esconde {
         display: none;
-        padding-left: 40px;
         padding-top: 30px;
-        margin-bottom: 0;
-        transition: .5s;
+        padding-bottom: 0;
+		margin: 0;
     }
     
     li:hover .esconde {
