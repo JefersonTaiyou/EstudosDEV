@@ -1,284 +1,495 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <link rel="stylesheet" type="text/css" href="style.css">
-
-    <title>Meu Portifolio</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Meu Portfolio</title>
+  <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon"> <!-- Icone do titulo da pagina, precisa ser um arquivo .ico -->
+  
+  <!-- ===== Arquivos CSS ===== -->
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/skins/color-1.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+  
+  <!-- ====== Style Switcher ====== -->
+  <link rel="stylesheet" href="css/skins/color-1.css" class="alternate-style" title="color-1" disabled>
+  <link rel="stylesheet" href="css/skins/color-2.css" class="alternate-style" title="color-2" disabled>
+  <link rel="stylesheet" href="css/skins/color-3.css" class="alternate-style" title="color-3" disabled>
+  <link rel="stylesheet" href="css/skins/color-4.css" class="alternate-style" title="color-4" disabled>
+  <link rel="stylesheet" href="css/skins/color-5.css" class="alternate-style" title="color-5" disabled>
+  <link rel="stylesheet" href="css/style-switcher.css">
+	
 </head>
-
 <body>
-    <header>
-        <div class="nav-bar">
-            <a href="#" class="logo">Jeferson</a>
-            <div class="navigation">
-                <div class="nav-items">
-                    <a href="#home">
-                    Inicio</a>
-                    <a href="#sobre">
-                    Sobre</a>
-                    <a href="#skills">
-                    Skills</a>
-                    <a href="#servicos">
-                    Serviços</a>
-                    <a href="#contato">
-                    Contato</a>
-                </div>
+  <!-- ===== Inicio do Container Principal ===== -->
+  <div class="main-container">
+    <!-- ===== Inicio do Aside ===== -->
+    <div class="aside">
+      <div class="logo">
+        <a href="#home"><span>J</span>eferson</a>
+      </div>
+      <div class="nav-toggler">
+        <span></span>
+      </div>
+      <ul id="nav">
+        <li><a href="#home"><i class="fa fa-home"></i> Inicio</a></li>
+        <li><a href="#about"><i class="fa fa-user"></i> Sobre</a></li>
+        <li><a href="#services"><i class="fa fa-list"></i>Serviços</a></li>
+        <li><a href="#portfolio"><i class="fa fa-briefcase"></i>Portifolio</a></li>
+        <li><a href="#contact"><i class="fa fa-comments"></i>Contato</a></li>
+      </ul>
+    </div>
+    <!-- ===== Fim do Aside ===== -->
+    <!-- ===== Inicio Conteudo Principal ===== -->
+    <div class="main-content">
+      <!-- ===== Inicio da Seção Home ===== -->
+      <section class="home section" id="home">
+        <div class="container">
+          <div class="row">
+            <div class="home-info padd-15">
+              <h3 class="hello">Olá, meu nome é <span class="name">Jeferson Sabino</span></h3>
+              <h3 class="my-profession">Eu sou um <span class="typing"></span></h3>
+              <p>Me desenvolvendo cada vez mais nas áreas de GameDev e Back-End/Front-End</p>
+              <a href="#contact" class="btn hire-me"><i class="fa fa-phone"></i> &nbsp;Entre em Contato</a>
             </div>
+            <div class="home-img padd-15">
+              <img src="images/about.jpg" alt="">
+            </div>
+          </div>
         </div>
-    </header>
-
-    <section class="home flex-center" id="home">
-        <div class="home-container">
-            <div class="media-icons">
-                <a href="#"><i class="fab fa-facebook-f"></i></a>
-                <a href="#"><i class="fab fa-instagram"></i></a>
-                <a href="https://www.linkedin.com/in/jeferson-ss-junior/" target="_blank" class="home-social-icon">
-                    <i class="fab fa-linkedin"></i></a>
-                <a href="https://github.com/JefersonTaiyou" target="_blank" class=" home-social-icon ">
-                    <i class="fab fa-github "></i></a>
+      </section>
+      <!-- ===== Fim da Seção Home ===== -->
+	  
+      <!-- ===== Inicio da Seção Sobre ===== -->
+      <section class="about section" id="about">
+        <div class="container">
+          <div class="row">
+            <div class="section-title padd-15">
+              <h2>Sobre Mim</h2>
             </div>
-            <div class="info">
-                <h2 class="home-titulo">Olá, me Chamo Jeferson!</h2>
-                <h3 class="home-subtitulo">Estudante GameDev</h3>
-                <p class="home-descricao">Me desenvolvendo cada vez mais nas áreas de GameDev e Back-End/Front-End</p>
-                <a href="#contato" class="botao">
-					Entre em contato
-					<i class="fas fa-arrow-circle-right"></i></a>
-            </div>
-            <div class="home-img">
-                <img src="../img/perfil-removebg.png" alt="" width=400 height=400>
-            </div>
-        </div>
-        <a href="#sobre" class="scroll-down">Descer
-			<i class="fas fa-arrow-down"></i>
-		</a>
-    </section>
-
-    <section class="sobre secao" id="sobre">
-        <div class="container flex-center">
-            <h1 class="titulo-1">Sobre Mim</h1>
-            <h2 class="titulo-2">Sobre Mim</h2>
-            <div class="conteudo flex-center">
-                <div class="img-sobre">
-                    <img src="../img/perfil.png" alt="" width=350 height=400>
+          </div>
+          <div class="row">
+            <div class="about-content padd-15">
+              <div class="row">
+                <div class="about-text padd-15">
+                  <h3>Estudante de <span>Desenvolvimento de Games</span></h3>
+                  <p>&nbsp;&nbsp;&nbsp; Estudante de programação atualmente voltado para a área de GameDev, cursando Superior em Jogos Digitais e realizando 
+				  alguns cursos nas plataformas Udemy e Digital Innovation One sobre Desenvolvimento para
+                            aprimorar meus conhecimentos Backend e Frontend. 
+				  </p>
                 </div>
-                <div class="sobre-info">
-                    <div class="descricao">
-                        <h3>Sou o Jeferson</h3>
-                        <h4>Estudante <span>GameDev</span> da Fatec Carapicuiba
-                        </h4>
-                        <p>&nbsp;&nbsp;&nbsp; Estudante de programação atualmente voltado para a área de GameDev, cursando Superior em Jogos Digitais e realizando alguns cursos nas plataformas Udemy e Digital Innovation One sobre Desenvolvimento Web para
-                            aprimorar meus conhecimentos Backend e Frontend. </p>
+              </div>
+              <div class="row">
+                <div class="personal-info padd-15">
+                  <div class="row">
+                    <div class="info-item padd-15">
+                      <p>Aniversário : <span>23 set 1996</span></p>
                     </div>
-                    <ul class="lista-profissional">
-                        <li class="items-lista">
-                            <h3>01+</h3>
-                            <span>Anos de<br>Experiência</span>
-                        </li>
-                        <li class="items-lista">
-                            <h3>02+</h3>
-                            <span>Projetos<br>Completos</span>
-                        </li>
-                        <li class="items-lista">
-                            <h3>01+</h3>
-                            <span>Equipes<br>Participadas</span>
-                        </li>
-                    </ul>
-                    <a download="" href="../Jeferson Sabino dos Santos Junior.pdf" class="botao botao--flex">
-						Download CV <i class="fas fa-download"></i>
-					</a>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section class="skills" id="skills">
-        <div class="container flex-center">
-            <h1 class="titulo-1">Educação e Skills</h1>
-            <h2 class="titulo-2">Educação e Skills</h2>
-            <div class="conteudo">
-                <div class="descricao">
-                    <h3>Educação</h3>
-                </div>
-
-				<div class="skills-info educacao">
-                    <div class="educacao">
-                        <h4><label><i class="fas fa-graduation-cap"></i>&nbsp;Educação</label></h4>
-                        <ul class="edu-list">
-                            <li class="item">
-                                <span class="ano"> 2021 - Atual</span>
-                                <p><span>Jogos Digitais</span> - Fatec Carapicuiba</p>
-                            </li>
-                            <li class="item">
-                                <span class="ano"> 2015 - 2016</span>
-                                <p><span>Administração</span> - SENAI - Jandira</p>
-                            </li>
-                            <li class="item">
-                                <span class="ano"> 2012 - 2014</span>
-                                <p><span>Técnico em Informática</span> - ITB Mutinga</p>
-                            </li>
-                        </ul>
+                    <div class="info-item padd-15">
+                      <p>Idade : <span>25 anos</span></p>
                     </div>
-				</div>
-                <div class="descricao">
-                    <h3>Skills</h3>
-                </div>
-                <div class="skills-info educacao">
-                    <div class="educacao">
-                        <h4><label><i class="fas fa-code skills-icon"></i>&nbsp;Desenvolvimento Front-End</label></h4>
-                        <ul class="barras">
-                            <li class="barra">
-                                <div class="info">
-                                    <span>HTML</span>
-                                    <span>65%</span>
-                                </div>
-                                <div class="linha html"></div>
-								<p class="esconde" align="justify">Linguagem de marcação utilizada na construção de páginas na Web. </p>
-                                <!--- 
-								<p class="esconde"><span class="verde">Jogos Digitais</span> - Fatec Carapicuiba</p>
-                                <p class="esconde"><span class="red">Jogos Digitais</span> - Fatec Carapicuiba</p>
-                                <p class="esconde"><span class="azul">Jogos Digitais</span> - Fatec Carapicuiba</p>
-								--->
-                            </li>
-                            <li class="barra">
-                                <div class="info">
-                                    <span>CSS</span>
-                                    <span>60%</span>
-                                </div>
-                                <div class="linha css"></div>
-								<p class="esconde" align="justify">Linguagem de marcação utilizada na construção de páginas na Web. </p>
-                            </li>
-                            <li class="barra">
-                                <div class="info">
-                                    <span>JavaScript</span>
-                                    <span>48%</span>
-                                </div>
-                                <div class="linha js"></div>
-								<p class="esconde" align="justify">Linguagem de marcação utilizada na construção de páginas na Web. </p>
-                            </li>
-                        </ul>
+                    <div class="info-item padd-15">
+                      <p>LinkedIn : <span><a href="https://www.linkedin.com/in/jeferson-ss-junior/" target="_blank" class="home-social-icon">
+                    <i class="fab fa-linkedin"></i> Jeferson Sabino </a></span></p>
                     </div>
-
-                    <div class="educacao">
-                        <h4><label><i class="fas fa-database skills-icon"></i>&nbsp;Desenvolvimento Back-End</label></h4>
-                        <ul class="barras">
-                            <li class="barra">
-                                <div class="info">
-                                    <span>C/C++</span>
-                                    <span>72%</span>
-                                </div>
-                                <div class="linha c"></div>
-								<p class="esconde" align="justify">Linguagem de marcação utilizada na construção de páginas na Web. </p>
-                            </li>
-                            <li class="barra">
-                                <div class="info">
-                                    <span>C#</span>
-                                    <span>60%</span>
-                                </div>
-                                <div class="linha csharp"></div>
-								<p class="esconde" align="justify">Linguagem de marcação utilizada na construção de páginas na Web. </p>
-                            </li>
-                            <li class="barra">
-                                <div class="info">
-                                    <span>SQL Server</span>
-                                    <span>76%</span>
-                                </div>
-                                <div class="linha sql"></div>
-								<p class="esconde" align="justify">Linguagem de marcação utilizada na construção de páginas na Web. </p>
-                            </li>
-                            <li class="barra">
-                                <div class="info">
-                                    <span>Python</span>
-                                    <span>52%</span>
-                                </div>
-                                <div class="linha python"></div>
-								<p class="esconde" align="justify">Linguagem de marcação utilizada na construção de páginas na Web. </p>
-                            </li>
-                        </ul>
+                    <div class="info-item padd-15">
+                      <p>GitHub : <span><a href="https://github.com/JefersonTaiyou" target="_blank" class=" home-social-icon ">
+                    <i class="fab fa-github "></i> Jeferson Taiyou</a></span></p>
                     </div>
-
-                    <div class="educacao">
-                        <h4><label><i class="fas fa-pencil-ruler skills-icon"></i>&nbsp;Designer/Animação</label></h4>
-                        <ul class="barras">
-                            <li class="barra">
-                                <div class="info">
-                                    <span>Photoshop</span>
-                                    <span>62%</span>
-                                </div>
-                                <div class="linha ps"></div>
-								<p class="esconde" align="justify">Linguagem de marcação utilizada na construção de páginas na Web. </p>
-                            </li>
-                            <li class="barra">
-                                <div class="info">
-                                    <span>Illustrator</span>
-                                    <span>71%</span>
-                                </div>
-                                <div class="linha ai"></div>
-								<p class="esconde" align="justify">Linguagem de marcação utilizada na construção de páginas na Web. </p>
-                            </li>
-                            <li class="barra">
-                                <div class="info">
-                                    <span>After Effects</span>
-                                    <span>49%</span>
-                                </div>
-                                <div class="linha ae"></div>
-								<p class="esconde" align="justify">Linguagem de marcação utilizada na construção de páginas na Web. </p>
-                            </li>
-                        </ul>
+                    <div class="info-item padd-15">
+                      <p>Telefone : <span>+55 (11) 96195-5706</span></p>
                     </div>
+                    <div class="info-item padd-15">
+                      <p>Cidade : <span>Barueri</span></p>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="buttons padd-15">
+                      <a href="#" class="btn">Download CV&nbsp;<i class="fas fa-download"></i></a>
+                      <a href="#contact" class="btn hire-me"><i class="fa fa-phone"></i> &nbsp;Entre em contato</i></a>
+                    </div>
+                  </div>
                 </div>
-				
-                <div class="descricao">
-                    <h3>Experiência Profissional</h3>
+                <div class="skills padd-15">
+                  <div class="row"><div class="skill-item padd-15">
+                      <h5>Linguagens mais utiizadas:</h5>
+					  <h5>C#</h5>
+                      <div class="progress">
+                        <div class="progress-in" style="width: 60%;"></div>
+                        <div class="skill-percent">60%</div>
+                      </div>
+                    </div>
+                    <div class="skill-item padd-15">
+                      <h5>SQL Server</h5>
+                      <div class="progress">
+                        <div class="progress-in" style="width: 76%;"></div>
+                        <div class="skill-percent">76%</div>
+                      </div>
+                    </div>
+                    <div class="skill-item padd-15">
+                      <h5>HTML</h5>
+                      <div class="progress">
+                        <div class="progress-in" style="width: 68%;"></div>
+                        <div class="skill-percent">68%</div>
+                      </div>
+                    </div>
+                    <div class="skill-item padd-15">
+                      <h5>CSS</h5>
+                      <div class="progress">
+                        <div class="progress-in" style="width: 50%;"></div>
+                        <div class="skill-percent">50%</div>
+                      </div>
+                    </div>
+                  </div>
                 </div>
-                <div class="skills-info">
-                    <div class="experiencia">
-                        <div class="upper">
-                            <h3>Tempo Assist</h3>
-                            <span>2016 - Atual</span>
+              </div>
+              <div class="row">
+                <div class="education padd-15">
+                  <h3 class="title"><i class="fas fa-graduation-cap"></i>&nbsp;Educação</h3>
+                  <div class="row">
+                    <div class="timeline-box padd-15">
+                      <div class="timeline shadow-dark">
+                        <!-- ===== timeline item ===== -->
+                        <div class="timeline-item">
+                          <div class="circle-dot"></div>
+                          <h3 class="timeline-date">
+                            <i class="fa fa-calendar"></i> 2021 - Atual
+                          </h3>
+                          <h4 class="timeline-title">Jogos Digitais - Fatec Carapicuíba</h4>
+                          <p class="timeline-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. A, maiores. Facere, minus? Quam minus autem quidem similique dignissimos cumque dolorum quis optio blanditiis, doloremque veritatis.</p>
                         </div>
-                        <div class="hr"></div>
-                        <h4><label>Analista de Atendimento</label></h4>
-                        <span>- Atendimento à Prestadores</span><br>
-                        <span>- Controle e criação de Planilhas</span><br>
-                        <span>- Acompanhamento de Sinistros</span><br>
-                        <span>- Atendimento SAC</span><br>
-                        <span>- Atendimento Ouvidoria</span>
-                    </div>
-                    <div class="experiencia">
-                        <div class="upper">
-                            <h3>Correios</h3>
-                            <span>2015 - 2016</span>
+                             <!-- ===== timeline item ===== -->
+                             <div class="timeline-item">
+                              <div class="circle-dot"></div>
+                              <h3 class="timeline-date">
+                                <i class="fa fa-calendar"></i> 2015 - 2016
+                              </h3>
+                              <h4 class="timeline-title">Administração - SENAI Jandira</h4>
+                              <p class="timeline-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. A, maiores. Facere, minus? Quam minus autem quidem similique dignissimos cumque dolorum quis optio blanditiis, doloremque veritatis.</p>
+                            </div>
+                                 <!-- ===== timeline item ===== -->
+                        <div class="timeline-item">
+                          <div class="circle-dot"></div>
+                          <h3 class="timeline-date">
+                            <i class="fa fa-calendar"></i> 2012 - 2014
+                          </h3>
+                          <h4 class="timeline-title">Técnico em Informática - ITB Mutinga</h4>
+                          <p class="timeline-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. A, maiores. Facere, minus? Quam minus autem quidem similique dignissimos cumque dolorum quis optio blanditiis, doloremque veritatis.</p>
                         </div>
-                        <div class="hr"></div>
-                        <h4><label>Assistente Administrativo</label></h4>
-                        <span>- Organização de Documentos</span><br>
-                        <span>- Controle de Planilhas</span><br>
-                        <span>- Atendimento ao Cliente</span><br>
-                        <span>- Rastreio de Objetos</span>
+                      </div>
                     </div>
+                  </div>
                 </div>
+                <div class="experience padd-15">
+                  <h3 class="title"><i class="fa fa-briefcase"></i> &nbsp;Experiência Profissional</h3>
+                  <div class="row">
+                    <div class="timeline-box padd-15">
+                      <div class="timeline shadow-dark">
+                        <!-- ===== timeline item ===== -->
+                        <div class="timeline-item">
+                          <div class="circle-dot"></div>
+                          <h3 class="timeline-date">
+                            <i class="fa fa-calendar"></i> 2016 - Atual
+                          </h3>
+                          <h4 class="timeline-title">Tempo Assist - Analista de Atendimento</h4>
+                          <p class="timeline-text">
+                        - Atendimento à Prestadores<br>
+                        - Controle e criação de Planilhas<br>
+                        - Acompanhamento de Sinistros<br>
+                        - Atendimento SAC<br>
+                        - Atendimento Ouvidoria
+						  </p>
+                        </div>
+                             <!-- ===== timeline item ===== -->
+                             <div class="timeline-item">
+                              <div class="circle-dot"></div>
+                              <h3 class="timeline-date">
+                                <i class="fa fa-calendar"></i> 2015 - 2016
+                              </h3>
+                              <h4 class="timeline-title">Correios - Assistente Administrativo</h4>
+                            <p class="timeline-text">							  
+                        - Organização de Documentos<br>
+                        - Controle e criação de Planilhas<br>
+                        - Atendimento ao Cliente<br>
+                        - Rastreamento de Objetos
+							</p>
+						</div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
+          </div>
         </div>
-    </section>
-
-    <section class="servicos" id="servicos">
-    </section>
-
-    <section class="contato" id="contato">
-    </section>
-
-    <!--==================== RODAPÉ ====================-->
-    <footer class="footer ">
-    </footer>
-
+      </section>
+      <!-- ===== Fim da Seção Sobre ===== -->
+	  
+      <!-- ===== Inicio Seção Serviço ===== -->
+      <section class="service section" id="services">
+        <div class="container">
+          <div class="row">
+            <div class="section-title padd-15">
+              <h2>Serviços</h2>
+            </div>
+          </div>
+          <div class="row">
+             <!-- ===== Inicio Item Serviço ====== -->
+             <div class="service-item padd-15">
+              <div class="service-item-inner">
+                <div class="icon">
+                  <i class="fa fa-palette"></i>
+                </div>
+                <h4>Design UI/UX/VFX</h4>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nihil velit ab itaque.</p>
+              </div>
+            </div>
+            <!-- ===== Fim Item Serviço ====== -->
+             <!-- ===== Inicio Item Serviço ====== -->
+             <div class="service-item padd-15">
+              <div class="service-item-inner">
+                <div class="icon">
+                  <i class="fa fa-code"></i>
+                </div>
+                <h4>Front-End</h4>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nihil velit ab itaque.</p>
+              </div>
+            </div>
+            <!-- ===== Fim Item Serviço ====== -->
+             <!-- ===== Inicio Item Serviço ====== -->
+             <div class="service-item padd-15">
+              <div class="service-item-inner">
+                <div class="icon">
+                  <i class="fas fa-database skills-icon"></i>
+                </div>
+                <h4>Back-End</h4>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nihil velit ab itaque.</p>
+              </div>
+            </div>
+            <!-- ===== Fim Item Serviço ====== -->
+             <!-- ===== Inicio Item Serviço ====== -->
+             <div class="service-item padd-15">
+              <div class="service-item-inner">
+                <div class="icon">
+                  <i class="fas fa-gamepad"></i>
+                </div>
+                <h4>GameDev</h4>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nihil velit ab itaque.</p>
+              </div>
+            </div>
+            <!-- ===== Fim Item Serviço ====== -->
+             <!-- ===== Inicio Item Serviço ====== -->
+             <div class="service-item padd-15">
+              <div class="service-item-inner">
+                <div class="icon">
+                  <i class="fa fa-laptop-code"></i>
+                </div>
+                <h4>Desenvolvimento Desktop</h4>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nihil velit ab itaque.</p>
+              </div>
+            </div>
+            <!-- ===== Fim Item Serviço ====== -->
+            <!-- ===== Inicio Item Serviço ====== -->
+            <div class="service-item padd-15">
+              <div class="service-item-inner">
+                <div class="icon">
+                  <i class="fa fa-mobile-alt"></i>
+                </div>
+                <h4>Desenvolvimento Mobile</h4>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nihil velit ab itaque.</p>
+              </div>
+            </div>
+            <!-- ===== Fim Item Serviço ====== -->
+          </div>
+        </div>
+      </section>
+      <!-- ===== Fim Seção Serviço ===== -->
+	  
+      <!-- ===== Inicio da Seção de Portifólio ===== -->
+      <section class="portfolio section" id="portfolio">
+        <div class="container">
+          <div class="row">
+            <div class="section-title padd-15">
+              <h2>Portifolio</h2>
+            </div>
+          </div>
+          <div class="row">
+            <div class="portfolio-heading padd-15">
+              <h2>Meus Projetos:</h2>
+            </div>
+          </div>
+          <div class="row">
+            <!-- ====== Inicio Item Portifólio ====== -->
+            <div class="portfolio-item padd-15">
+              <div class="portfolio-item-inner shadow-dark">
+                <div class="portfolio-img" align="center">
+                  <img src="images/portfolio/terraformation.png" alt="SMAUG - TERRAFORMATION">
+				<h4>SMAUG 1º Semestre - Game<br /> Construct 3</h4>
+                </div>
+              </div>
+            </div>
+            <!-- ====== Fim Item Portifólio ====== -->
+            <!-- ====== Inicio Item Portifólio ====== -->
+            <div class="portfolio-item padd-15">
+              <div class="portfolio-item-inner shadow-dark">
+                <div class="portfolio-img" align="center">
+                  <img src="images/portfolio/Magic-Ritmus.png" alt="SMAUG - Magic-Ritmus">
+				<h4>SMAUG 2º Semestre - Game<br /> Python > Pygame</h4>
+                </div>
+              </div>
+            </div>
+            <!-- ====== Fim Item Portifólio ====== -->
+            <!-- ====== Inicio Item Portifólio ====== -->
+            <div class="portfolio-item padd-15">
+              <div class="portfolio-item-inner shadow-dark">
+                <div class="portfolio-img" align="center">
+                  <img src="images/portfolio/terraformation.png" alt="SMAUG - TERRAFORMATION">
+				<h4>SMAUG 3º Semestre - Game<br /> C#</h4>
+                </div>
+              </div>
+            </div>
+            <!-- ====== Fim Item Portifólio ====== -->
+            <!-- ====== Inicio Item Portifólio ====== -->
+            <div class="portfolio-item padd-15">
+              <div class="portfolio-item-inner shadow-dark">
+                <div class="portfolio-img" align="center">
+                  <img src="images/portfolio/Magic-Ritmus.png" alt="SMAUG - TERRAFORMATION">
+				<h4>SMAUG 4º Semestre - Game<br /> C# > Unity</h4>
+                </div>
+              </div>
+            </div>
+            <!-- ====== Fim Item Portifólio ====== -->
+            <!-- ====== Inicio Item Portifólio ====== -->
+            <div class="portfolio-item padd-15">
+              <div class="portfolio-item-inner shadow-dark">
+                <div class="portfolio-img" align="center">
+                  <img src="images/portfolio/terraformation.png" alt="SMAUG - TERRAFORMATION">
+				<h4>SMAUG 5º Semestre - Game<br /> C# </h4>
+                </div>
+              </div>
+            </div>
+            <!-- ====== Fim Item Portifólio ====== -->
+            <!-- ====== Inicio Item Portifólio ====== -->
+            <div class="portfolio-item padd-15">
+              <div class="portfolio-item-inner shadow-dark">
+                <div class="portfolio-img" align="center">
+                  <img src="images/portfolio/Magic-Ritmus.png" alt="SMAUG - TERRAFORMATION">
+				<h4>SMAUG 6º Semestre - Game<br /> C#</h4>
+                </div>
+              </div>
+            </div>
+            <!-- ====== Fim Item Portifólio ====== -->
+          </div>
+        </div>
+      </section>
+      <!-- ===== Fim da Seção de Portifólio ===== -->
+	  
+      <!-- ===== Inicio da Seção Contato ===== -->
+      <section class="contact section" id="contact">
+        <div class="container">
+          <div class="row">
+            <div class="section-title padd-15">
+              <h2>Entre em contato</h2>
+            </div>
+          </div>
+          <div class="row">
+            <!-- ===== Inicio Item de informação do contato ====== -->
+            <div class="contact-info-item padd-15">
+              <div class="icon"><i class="fa fa-phone"></i></div>
+              <h4>Telefone: </h4>
+              <p>+55 (11) 96195-5706</p>
+            </div>
+            <!-- ===== Fim Item de informação do contato ====== -->
+            <!-- ===== Inicio Item de informação do contato ====== -->
+             <div class="contact-info-item padd-15">
+              <div class="icon"><i class="fa fa-envelope"></i></div>
+              <h4>E-mail</h4>
+              <p>jeferson.taiyou@gmail.com</p>
+            </div>
+            <!-- ===== Fim Item de informação do contato ====== -->
+            <!-- ===== Inicio Item de informação do contato ====== -->
+             <div class="contact-info-item padd-15">
+              <div class="icon"><i class="fab fa-linkedin"></i></div>
+              <h4>LinkedIn</h4>
+              <p>https://www.linkedin.com/in/jeferson-ss-junior/</p>
+            </div>
+            <!-- ===== Fim Item de informação do contato ====== -->
+            <!-- ===== Inicio Item de informação do contato ====== -->
+             <div class="contact-info-item padd-15">
+              <div class="icon"><i class="fab fa-instagram"></i></div>
+              <h4>Instagram</h4>
+              <p>https://www.instagram.com/jeff_tkpain/</p>
+            </div>
+            <!-- ===== Fim Item de informação do contato ====== -->
+          </div>
+          <h3 class="contact-title padd-15">ME MANDE UMA MENSAGEM</h3>
+          <!-- ====== Formulário de Contato ====== -->
+          <div class="row">
+            <div class="contact-form padd-15">
+              <div class="row">
+                <div class="form-item col-6 padd-15">
+                  <div class="form-group">
+                    <input type="text" class="form-control" placeholder="Nome">
+                  </div>
+                </div>
+                <div class="form-item col-6 padd-15">
+                  <div class="form-group">
+                    <input type="email" class="form-control" placeholder="Email">
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="form-item col-12 padd-15">
+                  <div class="form-group">
+                    <input type="text" class="form-control" placeholder="Assunto">
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="form-item col-12 padd-15">
+                  <div class="form-group">
+                    <textarea name="" class="form-control" id=""  placeholder="Mensagem"></textarea>
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="form-item col-12 padd-15">
+                  <button type="submit" class="btn">Enviar Mensagem</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- ===== Fim da Seção Contato ===== -->
+    </div>
+    <!-- ===== Fim do Conteudo Principal ===== -->
+  </div>
+  <!-- ===== Fim do Container Principal ===== -->
+  
+  <!-- ===== Inicio do Style Switcher ===== -->
+  <div class="style-switcher">
+    <div class="style-switcher-toggler s-icon">
+      <i class="fas fa-cog fa-spin"></i>
+    </div>
+    <div class="day-night s-icon">
+      <i class="fas "></i>
+    </div>
+    <h4>Escolha uma cor</h4>
+    <div class="colors">
+      <span class="color-1" onclick="setActiveStyle('color-1')"></span>
+      <span class="color-2" onclick="setActiveStyle('color-2')"></span>
+      <span class="color-3" onclick="setActiveStyle('color-3')"></span>
+      <span class="color-4" onclick="setActiveStyle('color-4')"></span>
+      <span class="color-5" onclick="setActiveStyle('color-5')"></span>
+    </div>
+  </div>
+  <!-- ===== Fim do Style Switcher ===== -->
+  
+  <!-- ===== Arquivos JS ===== -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js" referrerpolicy="no-referrer"></script>
+  <script src="js/style-text.js"></script>
+  <script src="js/style-dark-mode.js"></script>
 </body>
-
-<script src="script.js"></script>
-
 </html>

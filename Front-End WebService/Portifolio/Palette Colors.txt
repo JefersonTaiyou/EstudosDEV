@@ -1,0 +1,25 @@
+Website: https://www.color-hex.com/
+
+Roxo: Hexa #674EA7 | RGB (103,78,167)
+
+Monochromatic Colors of #674ea7
+#473673 #523e84
+#5c4696 #674ea7
+#745cb3 #836dbb
+#927fc3
+
+Shades of #674ea7
+#674ea7 #5c4696
+#523e85 #483674
+#3d2e64 #332753
+#291f42 #1e1732
+#140f21 #0a0710
+#000000
+
+Tints of #674ea7
+#674ea7 #765faf
+#8571b8 #9483c1
+#a394ca #b3a6d3
+#c2b8db #d1c9e4
+#e0dbed #efedf6
+#ffffff
