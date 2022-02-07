@@ -803,8 +803,8 @@ h3.my-profession
     }
 }
 
-.about .about-content .experience:hover,
-.about .about-content .education:hover
+.about .about-content .timeline:hover,
+.about .about-content .timeline:hover
 {
 	transform: scale(1.02);
 }
