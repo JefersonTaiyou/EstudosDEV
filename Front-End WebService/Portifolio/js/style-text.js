@@ -1,10 +1,21 @@
-/* ============================== typing animation ============================ */
+/* ============================== Animação Texto ============================ */
 var typed = new Typed(".typing",{
     strings:["Desenvolvedor de Games","Game Designer","Level Designer"],
     typeSpeed:100,
     BackSpeed:60,
     loop:true
 })
+
+/* ============================== Animação Logo ============================ */
+
+var typed = new Typed(".typinglogo",{
+    strings:["eferson"],
+    typeSpeed:200,
+    BackSpeed:200,
+    loop:true
+})
+
+/* ============================== Seleção Menu Lateral ============================ */
 
 let toggle = document.querySelector(".nav-toggler");
 let aside = document.querySelector(".aside");
